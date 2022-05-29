@@ -11,7 +11,7 @@ CSS
 
 🔥 <strong>Optimizations:</strong> <br>
 - Include additonal Pokemon data
-- Include addtional complex CSS styling - such as color based on Pokemon type 
+- Include addtional complex CSS styling - such as Pokemon card color based on Pokemon type 
 
 🔥 <strong>Lessons learned:</strong> 
 - Improving problem-solving skills<br>
