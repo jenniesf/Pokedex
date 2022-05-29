@@ -2,6 +2,8 @@
 
 Pokdex of the original 150 Pokemons
 
+View webpage: https://pokedex-150.netlify.app/
+
 🔥 <strong>Tech used:</strong> <br>
 My learning for this project focused on practicing APIs, CSS, and improving problem-solving skills
 <br> <br>
