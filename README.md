@@ -1,6 +1,7 @@
-# ⭐ Pokedex
+# ⭐ Pokemon Pokedex
 
-Pokdex of the original 150 Pokemons
+Pokdex: view original 150 Pokemons or search for a Pokemon by name or index number.
+Gotta catch 'em all!
 
 View webpage: https://pokedex-150.netlify.app/
 
@@ -13,7 +14,7 @@ CSS
 
 🔥 <strong>Optimizations:</strong> <br>
 - Include additonal Pokemon data
-- Include addtional complex CSS styling - such as Pokemon card color based on Pokemon type 
+- Include addtional complex CSS styling
 
 🔥 <strong>Lessons learned:</strong> 
 - Improving problem-solving skills<br>
