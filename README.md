@@ -16,6 +16,8 @@ HTML <br>
 CSS
 
 <strong>Optimizations:</strong> <br>
+I would like to provide the following future features/optimizations:
+
 - Include additonal Pokemon data
 - Name suggestion/auto-complete
 - Use a UI framework (bootstrap) to redesign the look of the website
