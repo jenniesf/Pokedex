@@ -6,19 +6,111 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* justify-content: center; */
+	justify-content: center;
 	margin: 0;
 }
 
+/* Headers */
+
+h1 , h2 {
+	font-family: 'Bebas Neue', cursive;
+	color: #a94444;
+	font-size: 6rem;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h1 {
+	margin-bottom: 0rem;
+}
+
+
+/* Pokemon search bar */
+
+#searchPokemon{
+	padding: 1.5rem;
+	padding-bottom: 3rem;
+}
+
+input{
+	height: 2rem;
+	width: 15rem;
+	border-radius: 10px;
+	border: 1px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	padding-left: 1rem;
+}
+
+
+/* Search button */
+
+button {
+	text-align: center;
+	background-color: #eee;
+	height: 2rem;
+	width: 5rem;
+	position:relative;
+
+	border-radius: 10px;
+	box-shadow: 0 1px 10px rgba(100, 100, 100, 0.5);
+	cursor: pointer;
+	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button a:active{
+	top:1rem;
+}
+
+button:after{
+	content:"";
+	height:100%;
+	width:100%;
+	padding:4px;
+	position: absolute;
+	bottom:-15px;
+	left:-4px;
+	z-index:-1;
+}
+
+/* button{
+	border-radius: 10px;
+	background-color: #eee;
+	height: 2rem;
+	width: 5rem;
+	border: none;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	cursor: pointer;
+} */
+
+
+/* Search for a Pokemon Card */
+
+.hidden{
+	display: none;
+}
+
+#searchPokemonContainer{
+	margin-bottom: 3rem;
+	width: 190px;
+	height: 310px;
+}
+
+
+/* 150 Pokemon Cards on page load */
+
 .pokemon{
-  background-color: #eee;
-	border-radius: 20px;
+  	background-color: #eee;
+	border-radius: 15px;
 	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
 	margin: 10px;
 	padding: 20px;
 	text-align: center;
-  	width: 130px;
-	height: 180px;
+  	width: 140px;
+	height: 200px;
 }
 
 .poke-container {
@@ -30,11 +122,81 @@ body {
 	max-width: 1200px;
 }
 
+
+/* Pokemon Cards */
+
 .pokemonType, .pokemonID{
 	font-size: 1rem;
-
 }
+
+.pokemonID{
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	text-align: center;
+	display: inline;
+}
+
 .pokemonName{
 	font-size: 1.5rem;
-	padding: 4px 0px;
+	padding: .8rem 0rem;
 }
+
+	/* Pokemon Card searched by user */
+	#searchImg {
+		height: 9rem;
+	}
+
+	#searchAbility {
+		padding: .5rem 0;
+	}
+
+
+/* Responsive */
+
+@media all and (max-width:980px){
+	body {
+	  margin-left: 2rem;
+	  margin-right: 2rem;
+	}
+  }
+  
+
+@media all and (max-width:500px){
+	body {
+	  margin-left: 2rem;
+	  margin-right: 2rem;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	img{
+	  height: 5rem;
+	}
+
+	input{
+		height: 1.5rem;
+		width: 10rem;
+	}
+	button {
+		text-align: center;
+		background-color: #eee;
+		height: 1.5rem;
+		width: 4rem;
+	}
+  }
+
+  @media all and (max-width:375px){
+	body {
+	  margin-left: 2rem;
+	  margin-right: 2rem;
+	}
+	img{
+	  height: 5rem;
+	}
+  }

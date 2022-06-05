@@ -6,17 +6,35 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 		<link rel="stylesheet" href="style.css" />
-		<title>Pokedex</title>
+		<title>Pokédex</title>
 
 	</head>
 	<body>
+
 		<h1>PokéDex</h1>
-		
+
+		<!-- search Pokemon by user-->
+		<section id="searchPokemon">
+			<input type="text" placeholder="Pokémon or number">
+			<button>search</button>
+		</section>
+
+		<section id="searchPokemonContainer" class="pokemon hidden">
+			<div class="img-container"> <img class="" id="searchImg" src="" alt=""/> </div>
+			<div id="searchID" class="pokemonID"></div>
+			<div id="searchName" class="pokemonName"></div>
+			<div id="searchType" class="pokemonType"></div>
+			<div id="searchAbility" class="pokemonAbility"></div>
+			<div id="searchMove" class="pokemonMove"></div>
+		</section>
+
+		<!-- pokemon container for 150 Pokemon cards -->
+		<h2>The 150 Original Pokémon</h2>
+
 		<section id="poke_container" class="poke-container"></section>
-
-
-		
 	</body>
 	<script type="text/javascript" src="main.js"></script>
 
