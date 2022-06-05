@@ -17,6 +17,8 @@ CSS
 
 <strong>Optimizations:</strong> <br>
 - Include additonal Pokemon data
+- Name suggestion/auto-complete
+- Use a UI framework (bootstrap) to redesign the look of the website
 - Include addtional complex CSS styling
 
 <strong>Lessons learned:</strong> 
